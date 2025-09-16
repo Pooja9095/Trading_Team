@@ -1,18 +1,31 @@
-# TradingTeam Crew
+# Trading Team Crew - AI Agents for a Simulated Trading Platform
 
-Welcome to the TradingTeam Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the Trading Team Crew project! This project was built using CrewAI, a multi-agent framework where AI agents collaborate to build, test, and deliver real-world software.
+
+This repo includes:
+
+Agent definitions for Engineering, Frontend, Backend, and Testing.
+
+Config files for reusable tasks.
+
+Auto-generated UI to simulate a trading platform with account management, trading actions, and reports.
+
+Gradio app to demo the final system.
+
+Visit the LIVE app here: https://huggingface.co/spaces/Pooja-Nigam/Trading_Team
 
 ## Installation
 
-Ensure you have Python >=3.10 <3.14 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+#  1. Prerequisites
+- Python ≥3.10 and <3.14
+- UV package manager
 
-First, if you haven't already, install uv:
+#  2. Install UV
 
 ```bash
 pip install uv
 ```
 
-Next, navigate to your project directory and install the dependencies:
 
 (Optional) Lock the dependencies and install them by using the CLI command:
 ```bash
